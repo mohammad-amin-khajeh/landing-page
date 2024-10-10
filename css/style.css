@@ -47,20 +47,25 @@ body {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1500px) {
+img {
+  width: 700px;
+}
+
+@media screen and (max-width: 1550px) {
   .hero {
     text-align: center;
   }
+
+  img {
+    width: 70vw;
+  }
+
 }
 
 .hero>div {
   flex-basis: 550px;
 }
 
-
-img {
-  width: 700px;
-}
 
 .logo {
   font-size: 24px;
